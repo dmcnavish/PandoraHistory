@@ -1,0 +1,53 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Pandora History Popup</title>
+    <style>
+      body {
+        min-width:357px;
+        overflow-x:hidden;
+      }
+
+      img { 
+        position : absolute;
+        padding-bottom: 5px;
+		    height:60px;
+		    width:60px;
+      }
+
+      li{
+        padding-bottom: 5px;
+      }
+
+      ul {
+        font-size:12px;
+        padding: 0;
+      }
+
+      input{
+        padding:10px 20px 10px 20px;
+        background-color: #eeeeee;
+      }
+	  
+	  ul.songHistory{
+		  border-bottom:1px solid #E0E0E0;
+	  }
+
+    .songHistory{
+		    list-style : none;
+        margin-left: 65px;
+      }
+
+    </style>
+
+    <!-- JavaScript and HTML must be in separate files for security. -->
+    <script src="popup.js"></script>
+  </head>
+  <body>
+    <ul id='history'></ul>
+    <div id="buttonDiv">
+      <input type="button" value="More" id="moreButton" >
+      <input type="button" value="Clear History" id="clearButton">
+  </div>
+  </body>
+</html>
