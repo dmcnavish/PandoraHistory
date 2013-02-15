@@ -1,4 +1,4 @@
 PandoraHistory
 ==============
 
-Chrome extension that keeps that of your Pandora history.
+Chrome extension that keeps track of your Pandora history.
